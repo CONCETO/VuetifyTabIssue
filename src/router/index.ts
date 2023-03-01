@@ -1,4 +1,4 @@
-import { useUrlTabStore } from "@/components/tab-store";
+import { useUrlTabStore } from "@/stores/tab-store";
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 

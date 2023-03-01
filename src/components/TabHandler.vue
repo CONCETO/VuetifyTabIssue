@@ -32,7 +32,7 @@
   <script setup lang="ts">
   import router from "@/router";
   import { computed } from "vue";
-import { useUrlTabStore, type UrlTab } from "./tab-store";
+import { useUrlTabStore, type UrlTab } from "../stores/tab-store";
   
   const tabStore = useUrlTabStore();
   
