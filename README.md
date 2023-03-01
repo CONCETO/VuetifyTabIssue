@@ -48,3 +48,5 @@ The Detail Component is displayed and the component is mounted exactly once.
 
 The Detail Component is displayed and the component is mounted twice, as
 can be seen printed in the console.
+
+### Reproduces Issue: https://github.com/vuetifyjs/vuetify/issues/16809
