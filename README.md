@@ -23,7 +23,7 @@ A new tab gets opened, when the url is changed, this is handled by the router an
 1. Open the application to the home view with no additional tabs & open developer tools console
 2. You will see in the console, that the onMounted function for the
    Home component gets called.
-3. Press one of the "Go to Detail View" button once. A new tab will open
+3. Press one of the "Go to Detail View" buttons. A new tab will open
 
 ### Expected Behaviour:
 
