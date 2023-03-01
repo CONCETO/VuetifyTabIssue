@@ -1,21 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <router-view/>
+      <tab-handler />
     </v-main>
   </v-app>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script setup lang="ts">
+import TabHandler from "./components/TabHandler.vue";
 
-export default defineComponent({
-  name: 'App',
-
-  data () {
-    return {
-      //
-    }
-  },
-})
 </script>
